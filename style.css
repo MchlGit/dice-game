@@ -1,6 +1,10 @@
 body {
     text-align: center;
     height: 100vh;
+    background-color: #84994F;
+    background-image: url('assets/bg-dice.png');
+    background-repeat: space;
+    background-size: 80px 80px;
 }
 
 .dice-box {
@@ -14,7 +18,46 @@ body {
 .dice-group {
     margin: 40px;
 }
-footer {
+.footer-container {
     bottom: 0;
-    width: 100%;
+
 }
+.cookie-font  {
+    font-family: "Cookie", cursive;
+    font-weight: 580;
+    font-style: normal;
+}
+
+h4, .btn {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    letter-spacing: 1.5px;
+}
+h1 {
+    font-size: 8rem;
+    color: #FFE797;
+}
+
+h4 {
+    color: #FFE797;
+}
+
+.btn {
+    background-color: #FCB53B;
+    color: #A72703;
+    font-size: 2rem;
+}
+
+.btn,
+.btn:focus,
+.btn:active,
+.btn.active:focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
