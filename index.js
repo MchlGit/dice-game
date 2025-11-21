@@ -12,6 +12,6 @@ document.querySelector("body > .btn") .addEventListener('click', () => {
         document.querySelector("h1").textContent = "Player 2 Wins!  🚩"
     }
     else { // if they are equal
-        document.querySelector("h1").textContent = "Ties do nothing. Roll again."
+        document.querySelector("h1").textContent = "Tied. Roll again."
     }
 })
